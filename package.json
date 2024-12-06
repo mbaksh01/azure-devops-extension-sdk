@@ -29,6 +29,9 @@
     "import": "./esm/SDK.min.js",
     "require": "./SDK.min.js"
   },
+  "publishConfig": {
+    "@mbaksh01:registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.3",
     "@rollup/plugin-typescript": "^11.1.4",
